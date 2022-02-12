@@ -20,8 +20,8 @@ class _ColapsedButtonPageState extends State<ColapsedButtonPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              colapsedBox('Titulo 1', 'texto 1'),
-              colapsedBox('Titulo 2', 'texto 2'),
+              colapsedBox('Titulo 1', 'Teste de texto 1'),
+              colapsedBox('Titulo 2', 'Teste de texto 2'),
             ],
           ),
         ),
@@ -54,7 +54,7 @@ class _ColapsedButtonPageState extends State<ColapsedButtonPage> {
               color: Colors.grey[400],
               borderRadius: BorderRadius.circular(8),
             ),
-            child: const Text('Teste de texto'),
+            child: Text(text),
           )
         ],
       ),
