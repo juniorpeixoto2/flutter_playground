@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_playground/Home_page.dart';
+import 'package:flutter_playground/pages/SplashPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const HomePage(),
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Playground',
+      theme: ThemeData(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const SplashPage(),
+        '/home': (context) => const HomePage(),
+      },
     );
   }
 }
