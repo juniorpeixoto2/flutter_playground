@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/animations/ColapsedButtonPage.dart';
-import 'package:flutter_playground/animations/ImplicitsPage.dart';
+import 'package:flutter_playground/pages/animations/ColapsedButtonPage.dart';
+import 'package:flutter_playground/pages/animations/ImplicitsPage.dart';
 
 class AnimationsPage extends StatefulWidget {
   const AnimationsPage({Key? key}) : super(key: key);

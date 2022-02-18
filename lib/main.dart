@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/Home_page.dart';
+import 'package:flutter_playground/pages/Animations_page.dart';
+import 'package:flutter_playground/pages/Home_page.dart';
+import 'package:flutter_playground/pages/MockupReadPage.dart';
 import 'package:flutter_playground/pages/SplashPage.dart';
 
 void main() {
@@ -19,6 +21,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const SplashPage(),
         '/home': (context) => const HomePage(),
+        '/animations': (context) => const AnimationsPage(),
+        '/mockupRead': (context) => const MockupReadPage(),
       },
     );
   }
